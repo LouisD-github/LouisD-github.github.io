@@ -1,0 +1,15 @@
+.Link {
+	color: black;
+	text-decoration: none;
+}
+
+#QuadratListe {
+	list-style-type:square;
+}
+
+:hover {
+	background-color: black;
+	color: white;
+	scrollbar-color: pink lightblue;
+}
+
