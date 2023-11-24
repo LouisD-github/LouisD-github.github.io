@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+	background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+* {
+	font-family: "Bebas Neue";
+	font-size: 25px;
+}
+h2 {
+	text-align: center;
+	font-size: 220%;
+}
+
+#t1 {
+	text-align: center;
+	font-size: 120%;
+}
+
+#t2 {
+	text-align: center;
+	font-size: 120%;
+}
+
+.list {
+	text-align: center;
+	background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+	background-blend-mode: screen;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+a:hover {
+	background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
+}
+
+#p2 {
+	text-align: center;
+}
+
+img {
+	height: 300px; width: 300px;
+}
+
+p {
+    border-width: 3px;
+	border-style: solid;
+	border-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%) 1;
+	text-align: center;
+}
+
+span {
+	border-width: 3px;
+	border-style: solid;
+	border-color: grey;
+	padding: 3px;
+}
+
+span:hover {
+	border-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%) 1;
+}
+
+img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h6 {
+	font-weight: 50%;
+	text-align: center;
+}
