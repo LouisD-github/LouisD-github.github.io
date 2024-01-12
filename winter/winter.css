@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
 html {
 	margin: 0;
 	padding: 0;
@@ -21,6 +23,36 @@ img {
 	max-height:100%; max-width:100%;
 }
 
-.5 {
-   height: 265.960px;
+.text {
+	text-align: center;
+}
+
+.gap {
+	margin-bottom: 12%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-family: Rubik Bubbles;
+}
+
+.one:hover {
+	content: url("images/one.jpg");
+}
+
+.two:hover {
+	content: url("images/two.jpg");
+}
+
+.three:hover {
+	content: url("images/three.jpg");
+}
+
+.four:hover {
+	content: url("images/four.jpg");
+}
+
+.six:hover {
+	content: url("images/six.jpg");
 }
