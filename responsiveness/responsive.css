@@ -3,7 +3,18 @@ body {
     padding: 60px 100px 20px;
 }
 
+.menu-icon {
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
 @media only screen and (max-width: 1251px){
+    .menu-icon {
+        display: flex;
+        float: right;
+    }
+
     .menu-list {
         display: none;
     }
@@ -37,6 +48,12 @@ header h1 {
     align-items: center;
 }
 
+@media screen and (max-width: 1351px) { 
+    .main-flexbox {
+        flex-wrap: wrap;
+    }
+}
+
 .main-textbox {
     width: 580px;
     padding: 0 50px;
@@ -61,4 +78,5 @@ header h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
