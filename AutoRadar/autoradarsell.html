@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>AutoRadar</title>
+    <link rel="stylesheet" href="autoradarsell.css">
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <a class="nav-a" href="#"><span>Kaufen</span></a>
+                <a class="nav-a" href="#"><span>Verkaufen</span></a>
+                <a href="#"><img class="logo" src="assets/AutoRadar_Logo.png" alt="Logo Auto-Radar" /></a>
+                <a class="nav-a" href="#"><span>Service</span></a>
+                <a class="nav-a" href="#"><span>Account</span></a>
+            </div>
+        </nav>
+    </header>
+    <section class="section-container">
+        <form>
+            <div class="title">
+                <span class="title-span">Inserat:</span>
+            </div>
+            <div class="box-container">
+                <ul class="list">
+                    <li class="pad">
+                        <input class="check-color" checked type="radio" id="checkbox1" name="inserat">
+                        <label class="checkbox-label">Verkaufen</label>
+                        <input class="check-color" type="radio" id="checkbox2" name="inserat">
+                        <label class="checkbox-label">Suche</label>
+                    </li>
+
+                    <li><label>Modell/Marke: </label></li>
+                    <li class="pad"><input class="select" type="text" name="model"></li>
+
+                    <li><label>Beschreibung: </label></li>
+                    <li class="pad"><textarea class="select"></textarea></li>
+
+                    <li><label>Bild hochladen: </label></li>
+                    <li class="pad"><input class="select" type="file" name="car-img"></li>
+
+                    <li><label>Kraftstoff: </label></li>
+                    <li class="pad"><input class="select" type="text" name="Kraftstoff"></li>
+                    <li><label>Kilometer: </label></li>
+                    <li class="pad"><input class="select" type="text" name="Kilometer"></li>
+                    <li><label>Getriebe: </label></li>
+                    <li class="pad">
+                        <input class="check-color" checked type="radio" id="checkbox1" name="Getriebe">
+                        <label class="checkbox-label">Manuell</label>
+                        <input class="check-color" type="radio" id="checkbox2" name="Getriebe">
+                        <label class="checkbox-label">Automatik</label></li>
+                    <li><label>PS: </label></li>
+                    <li class="pad"><input class="select" type="text" name="PS"></li>
+
+                    <li><label>Geringste Preisbewertung: </label></li>
+                    <li class="pad"><input class="price-slider" type="range" name="Preisbewertung"></li>
+
+                    <li><label>Händler-Bewertung: </label>
+                        <div class="star-container">
+                            <input type="radio" id="star1" name="rating" value="1">
+                            <label for="star1"></label>
+                            <input type="radio" id="star2" name="rating" value="2">
+                            <label for="star2"></label>
+                            <input type="radio" id="star3" name="rating" value="3">
+                            <label for="star3"></label>
+                            <input type="radio" id="star4" name="rating" value="4">
+                            <label for="star4"></label>
+                            <input type="radio" id="star5" name="rating" value="5">
+                            <label for="star5"></label>
+                        </div>
+                    </li>
+                    <li class="pad"></li>
+                    <li>
+                        <div class="button-container">
+                            <button class="btn1" type="button"><span>Zurück</span></button>
+                            <button class="btn2" type="button"><span>Inserat erstellen</span></button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <ul class="footer-list">
+            <li><span>Unternehmen</span></li>
+            <li><br></li>
+            <li><a href="#">Über uns</a></li>
+            <li><a href="#">Presse</a></li>
+            <li><a href="#">Karriere</a></li>
+            <li><a href="#">Werbung</a></li>
+            <li><a href="#">AGB</a></li>
+            <li><a href="#">Datenschutz</a></li>
+            <li><a href="#">Impressum</a></li>
+        </ul>
+        <ul class="footer-list">
+            <li><span>Service</span></li>
+            <li><br></li>
+            <li><a href="#">Hilfe</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+        <ul class="footer-list">
+            <li><span>Händler</span></li>
+            <li><br></li>
+            <li><a href="#">Anmelden</a></li>
+            <li><a href="#">Registieren</a></li>
+            <li><a href="#">Partner-Programm</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

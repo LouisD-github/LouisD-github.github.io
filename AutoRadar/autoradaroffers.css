@@ -225,7 +225,18 @@ hr {
     border-color: #214C9C;
     box-shadow: 0 0 0 #999, 0 0 0 transparent, 8px 8px 15px #999;
     margin-bottom: 1.5rem;
+
+    aspect-ratio: 16 / 9;
+    height: 200px;
 }
+
+.hlogo {
+    height: 100px;
+    width: 100px;
+    border-radius: 0;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
 
 @media only screen and (max-width: 446px) {
     .details-list {
