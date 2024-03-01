@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>AutoRadar</title>
+    <link rel="stylesheet" href="autoradarfrontpage.css">
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <a class="nav-a" href="#"><span>Kaufen</span></a>
+                <a class="nav-a" href="#"><span>Verkaufen</span></a>
+                <a href="#"><img class="logo" src="assets/AutoRadar_Logo.png" alt="Logo Auto-Radar" /></a>
+                <a class="nav-a" href="#"><span>Service</span></a>
+                <a class="nav-a" href="#"><span>Account</span></a>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="dropdown-menu">
+            <ul class="dropdown-list">
+                <li>
+                    <input checked type="radio" id="checkbox1" name="auswahl">
+                    <label class="checkbox-label">Gebrauchtwagen</label>
+                    <input type="radio" id="checkbox2" name="auswahl">
+                    <label class="checkbox-label">Leasing</label>
+                    <li>
+                    <span id="gap">Marke: </span>
+                    <select class="select">
+                        <option value="">Beliebig</option>
+                        <option value="dog">Alfra Romeo</option>
+                        <option value="cat">Audi</option>
+                        <option value="hamster">Bentley</option>
+                        <option value="parrot">BMW</option>
+                        <option value="spider">CUPRA</option>
+                        <option value="goldfish">Dacia</option>
+                        <option value="dog">Ferrari</option>
+                        <option value="cat">Fiat</option>
+                        <option value="hamster">Ford</option>
+                        <option value="parrot">Honda</option>
+                        <option value="spider">Hyundai</option>
+                        <option value="goldfish">Jeep</option>
+                        <option value="dog">Kia</option>
+                        <option value="cat">Lamborghini</option>
+                        <option value="hamster">Lexus</option>
+                        <option value="parrot">Mercedes-Benz</option>
+                        <option value="spider">Mini</option>
+                        <option value="goldfish">Mitsubishi</option>
+                        <option value="dog">Peugot</option>
+                        <option value="cat">Polestar</option>
+                        <option value="hamster">Porsche</option>
+                        <option value="parrot">Renault</option>
+                        <option value="spider">SEAT</option>
+                        <option value="goldfish">Skoda</option>
+                        <option value="dog">smart</option>
+                        <option value="cat">Subaru</option>
+                        <option value="hamster">Tesla</option>
+                        <option value="parrot">Toyota</option>
+                        <option value="spider">Volvo</option>
+                        <option value="goldfish">VW</option>
+                    </select>
+                    </li>
+                    <li>
+                    <span id="gap">PS: </span>
+                    <input class="select" type="text" name="PS" placeholder="Ab">
+                </li><li>
+                    <span id="gap">Getriebe: </span>
+                    <select class="select">
+                        <option value="">Beliebig</option>
+                        <option value="dog">Manuell</option>
+                        <option value="cat">Getriebe</option>
+                    </select>
+                </li><li>
+                    <span id="gap">Kraftstoff: </span>
+                    <select class="select">
+                        <option value="">Beliebig</option>
+                        <option value="dog">Benzin</option>
+                        <option value="cat">Diesel</option>
+                        <option value="cat">Elektrisch</option>
+                    </select>
+                </li><li>
+                    <span id="gap">Kilometer: </span>
+                    <input class="select" type="text" name="Kilometer" placeholder="Bis">
+                </li><li>
+                    <span id="gap">Preis bis: </span>
+                    <input class="select" type="text" name="Kilometer" placeholder="Bis">
+                    </select>
+                </li>
+                <li><a href="#"><button class="dropdown-btn" type="button"><span>Angebote</span></button></a></li>
+        </div>
+    </section>
+    <section class="slideshow-container">
+        <div class="title"><span id="glow">TOP Angebote der Woche:</span></div>
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img id="slide-1" src="assets/Auto911.avif" alt="TOP Angebot: Porsche 911 GT3" />
+                <img id="slide-2" src="assets/AutoVW.avif" alt="TOP Angebot: VW T5 Transporter" />
+                <img id="slide-3" src="assets/AutoLupo.avif" alt="TOP Angebot: VW Lupo" />
+            </div>
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+            </div>
+        </div>
+    </section>
+    <div class="title"><span>Vorschläge basierend auf ihrer letzen Suche:</span></div>
+    <div class="gallery-mobile"><img src="assets/placeholder.jpg" alt=""><span>Mehr Anzeigen</span></div>
+    <section class="gallery-container" id="gallery-none">
+        <div class="gallery">
+            <a href="#"><img src="assets/AutoTransporter.webp" alt="Zu verkaufendes Auto: VW T5 Transporter"></a>
+        </div>
+        <div class="gallery">
+            <a href="#"><img src="assets/AutoVW.avif" alt="Zu verkaufendes Auto: VW Touran"></a>
+        </div>
+        <div class="gallery">
+            <a href="#"><img src="assets/AutoLupo.avif" alt="Zu verkaufendes Auto: VW Lupo"></a>
+        </div>
+        <div class="gallery">
+            <a href="#"><img src="assets/Auto911.avif" alt="Zu verkaufendes Auto: Porsche 911 GT3"></a>
+        </div>
+        <a class="more-a" href="#"><span class="more" id="more-display-1">Mehr Anzeigen</span><span class="more" id="more-display-2">Mehr</span></a>
+    </section>
+    <section class="blog-wrapper">
+        <div class="title"><span>Blogs und Infos rundum das Kfz:</span></div>
+        <div class="blog-container-1">
+            <a style="text-decoration: none;" href="#"><img src="assets/blog1.jpg" alt="Steuerkette">
+                <div class="blog-text">
+                    <h2>Steuerkette selbst wechseln:</h2>
+                    <p>Willkommen im DIY-Abenteuer der Automobilwelt! Heute stürzen wir uns mutig in die Welt der Steuerketten und nehmen die Herausforderung an, sie beim BMW 1er selbst zu wechseln. In diesem Blogbeitrag teilen wir nicht nur Schritt-für-Schritt-Anleitungen, sondern auch ein paar Anekdoten aus der Garage – denn wer hat gesagt, dass Autoreparaturen nicht auch Spaß machen können? Packen wir also Werkzeuge, Wissen und gute Laune aus, um gemeinsam die Steuerkette unseres BMWs auf Vordermann zu bringen. Sicherheitsgurte festgezurrt, Helm aufgesetzt - lassen Sie die Schraubenschlüssel tanzen!</p>
+                </div>
+            </a>
+        </div>
+        <div class="blog-container-1">
+            <a style="text-decoration: none;" href="#"><img src="assets/blog2.jpg" alt="Felge">
+                <div class="blog-text">
+                    <h2>Die besten Felgen für den Sommer:</h2>
+                    <p>Tauche ein in die Welt der besten Autofelgen für den Sommer mit unserer exklusiven Top-10-Liste! In unserem aktuellen Blogbeitrag präsentieren wir eine sorgfältig erstellte Auswahl an Felgen, die nicht nur durch ihr Design, sondern auch durch ihre Leistung überzeugen. Von leichten Legierungen bis zu High-Tech-Materialien – erfahre, welche Felgen in puncto Qualität und Ästhetik die Spitze erreichen. Unsere sachliche Analyse gibt dir Einblicke in die wichtigsten Aspekte, damit du die perfekten Felgen für dein Fahrzeug auswählen kannst. Klicke jetzt und finde die ideale Kombination aus Stil und Funktionalität für deinen Sommer auf der Straße!</p>
+                </div>
+            </a>
+        </div>
+        </div>
+    </section>
+    <section class="bottom-container">
+        <div class="h-container">
+            <div class="title"><span>Händler und Partner in Deiner Umgebung:</span></div>
+            <ul>
+                <li><a href="#"><img src="assets/hlogo/hlogo2.png" alt="Händler-Logo"></a><a href="#"><img
+                            src="assets/hlogo/hlogo5.png" alt="Händler-Logo"></a><a href="#"><img src="assets/hlogo/hlogo4.jpg"
+                            alt=""></a></li>
+                <li><a href="#"><img src="assets/hlogo/hlogo3.jpg" alt="Händler-Logo"></a><a href="#"><img
+                            src="assets/hlogo/hlogo6.jpg" alt="Händler-Logo"></a><a href="#"><img src="assets/hlogo/hlogo1.png"
+                            alt="Händler-Logo"></a></li>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80393.78176293592!2d7.0757970557558!3d50.9735402111587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bed79c7d111a85%3A0x42760fc4a2a7c50!2sBergisch%20Gladbach!5e0!3m2!1sde!2sde!4v1709317879269!5m2!1sde!2sde" 
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+        </div>
+    </section>
+    <footer>
+        <ul class="footer-list">
+            <li><span>Unternehmen</span></li>
+            <li><br></li>
+            <li><a href="#">Über uns</a></li>
+            <li><a href="#">Presse</a></li>
+            <li><a href="#">Karriere</a></li>
+            <li><a href="#">Werbung</a></li>
+            <li><a href="#">AGB</a></li>
+            <li><a href="#">Datenschutz</a></li>
+            <li><a href="#">Impressum</a></li>
+        </ul>
+        <ul class="footer-list">
+            <li><span>Service</span></li>
+            <li><br></li>
+            <li><a href="#">Hilfe</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+        <ul class="footer-list">
+            <li><span>Händler</span></li>
+            <li><br></li>
+            <li><a href="#">Anmelden</a></li>
+            <li><a href="#">Registieren</a></li>
+            <li><a href="#">Partner-Programm</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
